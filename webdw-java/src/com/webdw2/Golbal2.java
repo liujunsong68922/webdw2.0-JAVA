@@ -7,7 +7,7 @@ import java.awt.Color;
 import java.io.File;
 
 /**
- * È«¾Ö±äÁ¿¶¨Òå
+ * È«ï¿½Ö±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  * 
  * @author admin
  * 
@@ -20,7 +20,7 @@ public class Golbal2 extends VBFunction2 {
 			+ "    Please contract me.  \r\n";
 
 	public void ReadMe() {
-		System.out.println("È«¾Ö±äÁ¿¶¨Òå");
+		System.out.println("È«ï¿½Ö±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		System.out.println(JWebDWInfo);
 	}
 
@@ -28,7 +28,7 @@ public class Golbal2 extends VBFunction2 {
 //
 //	public static WebDWSyntax GG_empty_webdw = new WebDWSyntax();
 
-	public static String G_ServerURL = "http://localhost/webdw/retrieve";
+	public static String G_ServerURL = "http://localhost/webdw";
 
 	public static String G_Lang = "";
 
@@ -44,22 +44,22 @@ public class Golbal2 extends VBFunction2 {
 	public static boolean False = false;
 
 	/**
-	 * ³õÊ¼»¯È«¾Ö±äÁ¿
+	 * ï¿½ï¿½Ê¼ï¿½ï¿½È«ï¿½Ö±ï¿½ï¿½ï¿½
 	 * 
 	 */
 	public static void InitGlobalVariable() {
-		// G_ServerURL = WebDWSite;// 'ÉèÖÃÄ¬ÈÏÁ¬½Ó,Á¬½Óµ½webdw.vicp.net
+		// G_ServerURL = WebDWSite;// 'ï¿½ï¿½ï¿½ï¿½Ä¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½Óµï¿½webdw.vicp.net
 
-		// '¶ÔÈ«¾ÖÓïÑÔ³£Á¿¸³Öµ
+		// 'ï¿½ï¿½È«ï¿½ï¿½ï¿½ï¿½ï¿½Ô³ï¿½ï¿½ï¿½ï¿½ï¿½Öµ
 		G_LangDef.Lang_English = "english";
 		G_LangDef.Lang_French = "french";
 		G_LangDef.Lang_Japanese = "japanese";
 		G_LangDef.Lang_SimpleChinese = "simplechinese";
 
-		G_Lang = G_LangDef.Lang_SimpleChinese; // 'Ä¬ÈÏÎª¼òÌåÖÐÎÄÏÔÊ¾
+		G_Lang = G_LangDef.Lang_SimpleChinese; // 'Ä¬ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾
 
-		// '¶ÔÈ«¾ÖÊý¾ÝÑÚÂëËùÓÃµÄÊý¾ÝÀàÐÍÀ´¸³Öµ
-		// 'Êý¾ÝÑÚÂëÔÝÊ±²»ÓèÖ§³Ö
+		// 'ï¿½ï¿½È«ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµ
+		// 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½Ö§ï¿½ï¿½
 		// 'G_EditMaskDataType.EditMask_Date = 1
 		// 'G_EditMaskDataType.EditMask_Time = 2
 		// 'G_EditMaskDataType.EditMask_DateTime = 3
@@ -67,7 +67,7 @@ public class Golbal2 extends VBFunction2 {
 		// 'G_EditMaskDataType.EditMask_Numeric = 5
 		// 'G_EditMaskDataType.EditMask_String = 6
 
-		// '³õÊ¼»¯È«¾ÖÐÔ³£Á¿¶¨ÒåµÄÊýÖµ
+		// 'ï¿½ï¿½Ê¼ï¿½ï¿½È«ï¿½ï¿½ï¿½Ô³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµ
 		G_Transaction_Const.Trans_Oper_Query = "1";
 		G_Transaction_Const.Trans_Oper_Exec = "2";
 		G_Transaction_Const.Trans_Oper_TableList = "3";
@@ -78,17 +78,17 @@ public class Golbal2 extends VBFunction2 {
 		G_Transaction_Const.Trans_Commit = "commit";
 		G_Transaction_Const.Trans_Rollback = "rollback";
 
-		G_Transaction_Const.Trans_GetDWDefine = "getdwdefine";// 'µÃµ½Êý¾Ý´°¿ÚµÄ¶¨Òå
+		G_Transaction_Const.Trans_GetDWDefine = "getdwdefine";// 'ï¿½Ãµï¿½ï¿½ï¿½ï¿½Ý´ï¿½ï¿½ÚµÄ¶ï¿½ï¿½ï¿½
 
 	}
 
 	public Golbal2() {
-		// ÊµÀý»¯Ê±¶ÔÈ«¾Ö±äÁ¿À´¸³Öµ
+		// Êµï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½È«ï¿½Ö±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµ
 		InitGlobalVariable();
 	}
 
-	// '´ÓÒ»¸ötargetControlsÈÝÆ÷ÖÐ£¬¸ù¾Ý¸ø¶¨¿Ø¼þÃû³ÆÀ´¼ìË÷¿Ø¼þ
-	// 'Èç¹û¿Ø¼þ²»´æÔÚ£¬Ôò·µ»ØNothing
+	// 'ï¿½ï¿½Ò»ï¿½ï¿½targetControlsï¿½ï¿½ï¿½ï¿½ï¿½Ð£ï¿½ï¿½ï¿½ï¿½Ý¸ï¿½ï¿½ï¿½ï¿½Ø¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø¼ï¿½
+	// 'ï¿½ï¿½ï¿½ï¿½Ø¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú£ï¿½ï¿½ò·µ»ï¿½Nothing
 	public static JComponent GF_GetObjectByName(List targetControls,
 			String objName) {
 		JComponent vobj = null;
@@ -109,25 +109,25 @@ public class Golbal2 extends VBFunction2 {
 
 	public long GF_GetVBColor(long pbColor, long defColor) {
 		long iret = 0;
-		long SYSCOLOR = 16777215;// '×î´óÑÕÉ«Öµ,256 * 256 * 256 - 1
+		long SYSCOLOR = 16777215;// 'ï¿½ï¿½ï¿½ï¿½ï¿½É«Öµ,256 * 256 * 256 - 1
 
 		if (pbColor <= SYSCOLOR) {
 			return pbColor;
 		}
 
-		iret = defColor;// 'ÉèÖÃÄ¬ÈÏÑÕÉ«
+		iret = defColor;// 'ï¿½ï¿½ï¿½ï¿½Ä¬ï¿½ï¿½ï¿½ï¿½É«
 		if (pbColor == 1090519039)
-			iret = RGB(255, 255, 255); // 'Èç¹ûÊÇwindowsÄ¬ÈÏ±³¾°É«
+			iret = RGB(255, 255, 255); // 'ï¿½ï¿½ï¿½ï¿½ï¿½windowsÄ¬ï¿½Ï±ï¿½ï¿½ï¿½É«
 		if (pbColor == 276856960)
-			iret = RGB(125, 125, 125);// ' Èç¹ûÊÇÓ¦ÓÃ¹¤×÷ÇøÄ¬ÈÏ±³¾°É«
+			iret = RGB(125, 125, 125);// ' ï¿½ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½Ã¹ï¿½ï¿½ï¿½ï¿½ï¿½Ä¬ï¿½Ï±ï¿½ï¿½ï¿½É«
 		if (pbColor == 81324524)
-			iret = RGB(125, 125, 125); // ' Èç¹ûÊÇ°´Å¥±íÉ«
+			iret = RGB(125, 125, 125); // ' ï¿½ï¿½ï¿½ï¿½Ç°ï¿½Å¥ï¿½ï¿½É«
 		if (pbColor == 33554592)
-			iret = RGB(0, 0, 0); // 'windowÎÄ±¾Ä¬ÈÏÑÕÉ«
+			iret = RGB(0, 0, 0); // 'windowï¿½Ä±ï¿½Ä¬ï¿½ï¿½ï¿½ï¿½É«
 
-		// 'ÏÂÃæÊÇ¼¸ÖÖ¹Ì¶¨¶¨ÒåµÄÑÕÉ«×ª»»
+		// 'ï¿½ï¿½ï¿½ï¿½ï¿½Ç¼ï¿½ï¿½Ö¹Ì¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É«×ªï¿½ï¿½
 		if (pbColor == 536870912)
-			iret = RGB(255, 255, 255); // '°×É«
+			iret = RGB(255, 255, 255); // 'ï¿½ï¿½É«
 
 		return iret;
 
@@ -143,7 +143,7 @@ public class Golbal2 extends VBFunction2 {
 			return 0.5;
 		}
 		JTextField jt = (JTextField) TextConvertRate;
-		convertRate = Double.parseDouble(jt.getText()); // '»ñÈ¡ÉèÖÃÖµ
+		convertRate = Double.parseDouble(jt.getText()); // 'ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½Öµ
 		if (convertRate <= 0.1 || convertRate >= 10) {
 			convertRate = 0.5;
 		}
@@ -158,12 +158,12 @@ public class Golbal2 extends VBFunction2 {
 //		String str_retrieve = "";
 //		String sdata = "";
 //
-//		if (temp_webdw.Create(dwSyntax) == -1) {// Then '½âÎöÊ§°Ü£¬·µ»Ø¿Õ×Ö·û´®
+//		if (temp_webdw.Create(dwSyntax) == -1) {// Then 'ï¿½ï¿½ï¿½ï¿½Ê§ï¿½Ü£ï¿½ï¿½ï¿½ï¿½Ø¿ï¿½ï¿½Ö·ï¿½ï¿½ï¿½
 //			return "";
 //		}
 //		log(dwSyntax);
 //		log("" + GG_webdw.getColumnNumber());
-//		str_retrieve = temp_webdw.GetRetrieveSQL();// 'µÃµ½¼ìË÷ÓÃµÄSQLÓï¾ä
+//		str_retrieve = temp_webdw.GetRetrieveSQL();// 'ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ãµï¿½SQLï¿½ï¿½ï¿½
 //		log(str_retrieve);
 //		if (str_retrieve.length() == 0) {
 //			return "";
@@ -175,13 +175,13 @@ public class Golbal2 extends VBFunction2 {
 //		// 'temp_sqlca.readNum = 1000
 //		temp_sqlca.Eval("Setcommand(" + str_retrieve + ")", iret);
 //
-//		sdata = temp_sqlca.ExecuteSelect(iret);// 'Ö´ÐÐsql,µÃµ½Êý¾Ý½á¹û
+//		sdata = temp_sqlca.ExecuteSelect(iret);// 'Ö´ï¿½ï¿½sql,ï¿½Ãµï¿½ï¿½ï¿½ï¿½Ý½ï¿½ï¿½
 //
 //		if (iret.intvalue == -1) {// Then
 //			return "";
 //		}
 //
-//		return sdata;// '·µ»ØÊý¾Ý
+//		return sdata;// 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 //	}
 
 	public long GF_GetDBlength(String sdata) {
@@ -231,7 +231,7 @@ public class Golbal2 extends VBFunction2 {
 	}
 
 	/**
-	 * ½«VBµÄÑÕÉ«×ª»»³ÉJavaµÄÑÕÉ«
+	 * ï¿½ï¿½VBï¿½ï¿½ï¿½ï¿½É«×ªï¿½ï¿½ï¿½ï¿½Javaï¿½ï¿½ï¿½ï¿½É«
 	 * 
 	 * @param vbcolor
 	 * @return
@@ -249,41 +249,41 @@ public class Golbal2 extends VBFunction2 {
 }
 
 /**
- * ÓïÑÔÀàÐÍ¶¨Òå,ÓÃÓÚ½øÐÐ¶àÓïÑÔÖ§³Ö
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¶ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½Ú½ï¿½ï¿½Ð¶ï¿½ï¿½ï¿½ï¿½ï¿½Ö§ï¿½ï¿½
  * 
  * @author liujunsong
  * 
  */
 class LangDef {
-	public String Lang_SimpleChinese = "";// '¼òÌåÖÐÎÄ¶¨Òå
+	public String Lang_SimpleChinese = "";// 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½
 
-	public String Lang_English = ""; // 'Ó¢ÎÄ¶¨Òå
+	public String Lang_English = ""; // 'Ó¢ï¿½Ä¶ï¿½ï¿½ï¿½
 
-	public String Lang_French = ""; // '·¨ÎÄ¶¨Òå
+	public String Lang_French = ""; // 'ï¿½ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½
 
-	public String Lang_Japanese = ""; // 'ÈÕÎÄ¶¨Òå
+	public String Lang_Japanese = ""; // 'ï¿½ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½
 
 }
 
 class Transaction_Const {
-	public String Trans_Oper_Query = ""; // '²éÑ¯²Ù×÷ //1
+	public String Trans_Oper_Query = ""; // 'ï¿½ï¿½Ñ¯ï¿½ï¿½ï¿½ï¿½ //1
 
-	public String Trans_Oper_Exec = ""; // 'Ö´ÐÐ²Ù×÷ //2
+	public String Trans_Oper_Exec = ""; // 'Ö´ï¿½Ð²ï¿½ï¿½ï¿½ //2
 
-	public String Trans_Oper_TableList = ""; // 'Êý¾Ý±íÁÐ±í²Ù×÷ //3
+	public String Trans_Oper_TableList = ""; // 'ï¿½ï¿½ï¿½Ý±ï¿½ï¿½Ð±ï¿½ï¿½ï¿½ï¿½ //3
 
-	public String Trans_Oper_ColumnList = ""; // 'Êý¾ÝÁÐÁÐ±í²Ù×÷ //4
+	public String Trans_Oper_ColumnList = ""; // 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð±ï¿½ï¿½ï¿½ï¿½ //4
 
-	// 'ÏÂÃæÊÇÊÂÎñÏà¹Ø·½·¨
-	public String Trans_BeginTrans = ""; // 'Æô¶¯Ò»¸öÊÂÎñ
+	// 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø·ï¿½ï¿½ï¿½
+	public String Trans_BeginTrans = ""; // 'ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-	public String Trans_AddCommand = ""; // 'Ôö¼ÓÃüÁî
+	public String Trans_AddCommand = ""; // 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-	public String Trans_Commit = ""; // 'Ìá½»ÊÂÎñ
+	public String Trans_Commit = ""; // 'ï¿½á½»ï¿½ï¿½ï¿½ï¿½
 
-	public String Trans_Rollback = ""; // '»Ø¹ö£¨È¡Ïû£©ÊÂÎñ
+	public String Trans_Rollback = ""; // 'ï¿½Ø¹ï¿½ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-	// 'ÏÂÃæÊÇ»ñµÃÊý¾Ý´°¿Ú¶¨ÒåµÄ·½·¨
-	public String Trans_GetDWDefine = ""; // '´ÓºóÌ¨¼ìË÷Êý¾Ý´°¿Ú¶¨ÒåÎÄ¼þ
+	// 'ï¿½ï¿½ï¿½ï¿½ï¿½Ç»ï¿½ï¿½ï¿½ï¿½ï¿½Ý´ï¿½ï¿½Ú¶ï¿½ï¿½ï¿½Ä·ï¿½ï¿½ï¿½
+	public String Trans_GetDWDefine = ""; // 'ï¿½Óºï¿½Ì¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý´ï¿½ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½
 
 }
